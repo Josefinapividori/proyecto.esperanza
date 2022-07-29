@@ -1,0 +1,140 @@
+{
+  "main": {
+    "name": "Esperanza Pividori",
+    "description": "Directora de Arte · Diseñadora UX · Fotógrafa",
+    "image": "profilepic.jpg",
+    "bio": "Soy diseñadora y me dedico a la dirección de arte y la fotografía hace 7 años. Diseño sets para audiovisuales y fotografías para marcas. Me especialicé en diseño de experiencia de usuario y te ayudo a impulsar visualmente tu proyecto. Gracias por tu interés en mi trabajo.",
+    "contactmessage": "Escribirme para nuevos proyectos 🌱",
+    "email": "esperanza.pividori@gmail.com",
+    "phone": "+54 362 485-0902",
+    "address": {
+      "street": "Palermo, CABA",
+      "city": "Buenos Aires",
+      "state": "Argentina"
+    },
+    "website": "https://linktr.ee/esperanzapividori",
+    "linkTree": "https://linktr.ee/esperanzapividori",
+    "social": [
+      {
+        "name": "youtube",
+        "url": "https://www.youtube.com/channel/UC8xsUpIzvi6qkfCp7NF_Rig",
+        "className": "fa fa-youtube-play"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/esperanzapividori/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/esperanzapividori/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "Mail",
+        "url": "mailto:esperanza.pividori@gmail.com",
+        "className": "fa fa-envelope-o"
+      },
+      {
+        "name": "Medium",
+        "url": "https://medium.com/@esperanzapividori",
+        "className": "fa fa-pencil"
+      }
+    ]
+  },
+  "shop": {
+    "projects": [
+      {
+        "title": "15% de descuento",
+        "category": "tu primera sesión de fotos en estudios o exteriores, utilizando el código 15sesión",
+        "image": "card.jpg",
+        "url": "https://mpago.la/2mPD45H"
+      }, 
+      {
+        "title": "20% de descuento",
+        "category": "",
+        "image": "card1.jpg",
+        "url": "https://mpago.la/2mPD45H"
+      },
+      {
+        "title": "10% de descuente",
+        "category": "",
+        "image": "card2.jpg",
+        "url": "https://mpago.la/2mPD45H"
+      },
+      {
+        "title": " asd",
+        "category": "",
+        "image": "card3.jpg",
+        "url": "https://mpago.la/2mPD45H"
+      },
+      {
+        "title": "fgh",
+        "category": "",
+        "image": "card4.jpg",
+        "url": "https://mpago.la/2mPD45H"
+      },
+      {
+        "title": "qwe",
+        "category": "",
+        "image": "card5.jpg",
+        "url": "https://mpago.la/2mPD45H"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Rediseño UX Banco del Chaco",
+        "category": "Ingresá para ver el rediseño completo del homebanking.",
+        "image": "banco-del-chaco.jpg",
+        "url": "https://www.behance.net/gallery/141192621/Rediseno-UX-Banco-del-Chaco"
+      },
+      {
+        "title": "Diseño UX Green Food",
+        "category": "App para encontrar alimentos saludables, sustentables y veganos",
+        "image": "green-food.jpg",
+        "url": "https://www.behance.net/gallery/138100985/Proyecto-de-Diseno-UXUI-Alimentacion-Sustentable"
+      },
+      {
+        "title": "Cortometraje - Ernestina de 5 a 7",
+        "category": "Una comedia con un código teatral",
+        "image": "ernestina.jpg",
+        "url": "https://www.behance.net/gallery/146186393/Cortometraje-Ernestina-de-5-a-7-%282020%29?tracking_source=project_owner_other_projects"
+      },
+      {
+        "title": "Cortometraje - Laura",
+        "category": "Presentado en el Festival de Cine Guácaras y Festival de Cine Latinoamericano Lapacho",
+        "image": "laura.jpg",
+        "url": "https://www.behance.net/gallery/146183299/Cortometraje-Laura-%282018%29m"
+      },
+      {
+        "title": "Mediometraje - Teoría del beso",
+        "category": "Premiado por el Fondo Nacional de las Artes",
+        "image": "tdb.jpg",
+        "url": "https://www.behance.net/gallery/146180653/Mediometraje-TDB-%282019%29"
+      },
+      {
+        "title": "Diseño de set en Sketchup - Estilo años '70",
+        "category": "Ambientación con estilo años 70",
+        "image": "set.jpg",
+        "url": "https://www.behance.net/gallery/146189491/Diseno-de-set-en-Sketchup-Estilo-anos-70/modules/825869597"
+      }
+    ]
+  },
+  "servicios": {
+    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "education": [
+      {
+        "school": "Diseño de set + Fotografía",
+        "degree": "Recomendado para marcas que ofrecen accesorios u objetos"
+      },
+      {
+        "school": "Estilismo + Fotografía",
+        "degree": "Recomendado para marcas de moda y proyectos creativos"      },
+      {
+        "school": "Creación de conceptos visual de marca + fotografía",
+        "degree": "Recomendado para marcas de moda, emprendedores que ofrecen servicios y para proyectos creativos"      }
+    ]
+  }
+}
