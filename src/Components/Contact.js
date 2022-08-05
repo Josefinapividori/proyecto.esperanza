@@ -4,13 +4,6 @@ import Swal from 'sweetalert';
 
 const Contact = (props) => {
    if (props.data) {
-      var name = props.data.name;
-      var street = props.data.address.street;
-      var city = props.data.address.city;
-      var state = props.data.address.state;
-      var zip = props.data.address.zip;
-      var phone = props.data.phone;
-      var email = props.data.email;
       var message = props.data.contactmessage;
    }
 
@@ -95,45 +88,6 @@ const Contact = (props) => {
                </form>
 
             </div>
-
-
-            <aside className="four columns footer-widgets">
-               <div className="widget widget_contact">
-
-                  <h4>• Dirección y celular de contacto •</h4>
-                  <p className="address">
-                     {name}<br />
-                     {email}<br />
-                     {street} <br />
-                     {city}, {state} {zip}<br />
-                     <span>{phone}</span>
-                  </p>
-               </div>
-
-               <div className="widget widget_tweets">
-                  <h4 className="widget-title">• Clases •</h4>
-                  <ul id="twitter">
-                     <li>
-                        <span>
-                           1# Dirección de arte para plataformas digitales | Creación de Estilos  |
-                           <a href="https://youtu.be/zqQImZDiFBE">https://youtu.be/zqQImZDiFBE</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           2# Dirección de arte para plataformas digitales | Elementos visuales 1 |
-                           <a href="https://youtu.be/a4hMV0GX0NY">https://youtu.be/a4hMV0GX0NY</a>
-                        </span>
-                     </li>
-                     <li>
-                        <span>
-                           3# Dirección de arte para plataformas digitales | Elementos visuales 2 |
-                           <a href="https://youtu.be/AbcQD1bsRu0">https://youtu.be/AbcQD1bsRu0</a>
-                        </span>
-                     </li>
-                  </ul>
-               </div>
-            </aside>
          </div>
       </section>
    );

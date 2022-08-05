@@ -260,7 +260,6 @@
       font: 16px/24px 'opensans-bold', sans-serif;
       text-align: center;
       margin-bottom: 30px;
-      text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
    }
    #servicios h1 span { display: block; }
    #servicios .header-col h1:before { content: none; }

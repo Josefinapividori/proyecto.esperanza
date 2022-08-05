@@ -28,7 +28,7 @@ body {
 
 header {
    position: relative;
-   height: 610px;
+   height: 650px;
    min-height: 500px;
    width: 100%;
    background: #A569BD url(../images/header.jpg) no-repeat top center;
@@ -84,7 +84,7 @@ header .banner-text hr {
    width: 60%;
    margin: 18px auto 24px auto;
    border-color: #8E44AD;
-   border-color: #8E44AD(150, 150, 150, .1);
+   border-color: #8E44AD;
 }
 
 /* header social links */
@@ -203,13 +203,16 @@ ul#nav li a {
 }
 
 ul#nav li a:active {
-   background-color: transparent !important;
+   background-color: transparent;
 }
 
-ul#nav li.current a {
+/* ul#nav li.current a{
+   color: #A569BD;
+} */
+
+ul#nav li.active a{
    color: #A569BD;
 }
-
 
 /* ------------------------------------------------------------------ */
 /* c. sobre-mi Section
@@ -233,7 +236,7 @@ ul#nav li.current a {
 }
 
 #sobre-mi h2 {
-   font: 22px/30px 'opensans-bold', sans-serif; 
+   font: 22px/30px 'opensans-bold', sans-serif;
    color: #A569BD;
    margin-bottom: 12px;
 }
@@ -761,7 +764,8 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #servicios {
-   background: #1F1F1F url(../images/servicios-fondo.jpg) no-repeat center center;
+   background: #fff;
+   /* background: #1F1F1F url(../images/servicios-fondo.jpg) no-repeat center center; */
    background-size: cover !important;
    -webkit-background-size: cover !important;
    background-attachment: fixed;
@@ -770,7 +774,7 @@ call-to-action .button {
    min-height: 200px;
    width: 100%;
    overflow: hidden;
-   padding-top: 150px;
+   padding-top: 70px;
 }
 
 #servicios a,
@@ -795,7 +799,7 @@ call-to-action .button {
 }
 
 #servicios h3 {
-   font: 25px/30px 'opensans-bold', sans-serif;
+   font: 20px/30px 'opensans-bold', sans-serif;
 }
 
 #servicios .header-col {
@@ -806,27 +810,19 @@ call-to-action .button {
    padding-right: 10%;
 }
 
-.education {
+.tipos {
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
 }
 
 #servicios .info {
-   font: 20px/24px 'librebaskerville-italic', serif;
+   font: 15px/24px 'opensans-bold', serif;
    color: #A569BD;
    margin-bottom: 18px;
    margin-top: 9px;
 }
 
-/* #servicios .info span {
-   margin-right: 5px;
-   margin-left: 5px;
-}
-#servicios .date {
-   font: 15px/24px 'opensans-regular', sans-serif;
-   margin-top: 6px;
-} */
 
 /* Flex Slider
 /* ------------------------------------------------------------------ */
@@ -1035,7 +1031,7 @@ call-to-action .button {
    border: 0;
    outline: none;
    font-size: 15px;
-   line-height: 24px;
+   line-height: 24px;     
    width: 65%;
 }
 
@@ -1226,7 +1222,7 @@ footer .social-links li:first-child {
 
 /* Login - register */
 
-#container{
+#container {
    margin-left: auto;
    margin-right: auto;
    line-height: 0px;
@@ -1244,52 +1240,62 @@ footer .social-links li:first-child {
    display: flex;
    flex-direction: column;
    justify-content: center;
- }
- .formContainer h3 {
+}
+
+.formContainer h3 {
    font-size: 20px;
    font-weight: normal;
-   color: #2f2f2f;
- }
- .formContainer h2 {
+   color: black;
+}
+
+.formContainer h2 {
    font-size: 30px;
    font-weight: bolder;
    color: #A569BD;
- }
- .formContainer form {
+}
+
+.formContainer form {
    margin-top: 30px;
    display: flex;
    flex-direction: column;
    gap: 25px;
- }
- .formContainer form .inputContainer {
+}
+
+.formContainer form .inputContainer {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   background-color: #ececec;
+   background-color: #EBDEF0;
    padding: 10px 15px;
    border-radius: 8px;
- }
- .formContainer form .inputContainer .left {
+   height: 70px;
+}
+
+.formContainer form .inputContainer .left {
    display: flex;
    flex-direction: column;
    gap: 3px;
    width: 80%;
- }
- .formContainer form .inputContainer .left label {
+}
+
+.formContainer form .inputContainer .left label {
    font-size: 11px;
- }
- .formContainer form .inputContainer .left input {
+}
+
+.formContainer form .inputContainer .left input {
    border: none;
    font-weight: bold;
    background-color: inherit;
    font-size: 13px;
-   color: #2f2f2f;
- }
- .formContainer form .inputContainer svg {
+   color: black;
+}
+
+.formContainer form .inputContainer svg {
    width: 25px;
    height: 20px;
- }
- .formContainer form button {
+}
+
+.formContainer form button {
    margin-top: 10px;
    border: none;
    width: 100%;
@@ -1301,22 +1307,27 @@ footer .social-links li:first-child {
    background-color: #A569BD;
    border-radius: 8px;
    transition-duration: 0.3s;
- }
- .formContainer form button:hover {
+}
+
+.formContainer form button:hover {
    background-color: #A569BD;
- }
- .formContainer form p {
+}
+
+.formContainer form p {
    text-align: center;
    font-size: 12px;
- }
- .formContainer form p b {
+}
+
+.formContainer form p b {
    cursor: pointer;
    color: #A569BD;
- }
- .formContainer form p b:hover {
+}
+
+.formContainer form p b:hover {
    text-decoration: underline;
- }
- .toast {
+}
+
+.toast {
    transition-duration: 1000s;
    background-color: #A569BD;
    border-radius: 8px;
@@ -1326,29 +1337,34 @@ footer .social-links li:first-child {
    bottom: 0;
    margin-bottom: 15px;
    padding: 10px;
- }
- .welcome {
+}
+
+.welcome {
    padding: 35px 75px;
    background-color: white;
    border-radius: 8px;
    text-align: center;
- }
- .welcome h2 {
+}
+
+.welcome h2 {
    font-weight: bold;
    color: #6358dc;
    font-size: 25px;
- }
- .welcome h3 {
+}
+
+.welcome h3 {
    font-weight: normal;
-   color: #2f2f2f;
- }
- .welcome .buttons {
+   color: #fff;
+}
+
+.welcome .buttons {
    display: flex;
    gap: 25px;
    justify-content: center;
    margin-top: 15px;
- }
- .welcome .buttons button {
+}
+
+.welcome .buttons button {
    background-color: #6358dc;
    border: none;
    cursor: pointer;
@@ -1356,24 +1372,56 @@ footer .social-links li:first-child {
    padding: 5px 20px;
    border-radius: 3px;
    transition-duration: 0.3s;
- }
- .welcome .buttons button:hover {
-   background-color: #4235d6;
- }
+}
 
- /*  */
- .swal-title {
+.welcome .buttons button:hover {
+   background-color: #4235d6;
+}
+
+/*  */
+.swal-title {
    margin: 0px;
    font-size: 16px;
    color: #A569BD;
    margin-bottom: 28px;
-   
- }
- .swal-button {
+
+}
+
+.swal-button {
    padding: 7px 19px;
    border-radius: 2px;
    background-color: #A569BD;
    font-size: 12px;
    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
- }
+}
+
+
+/*imagenes */ 
+div.fila {
+   box-sizing: border-box;
+}
+
+.columna {
+   float: left;
+   width: 33%;
+   padding-right: 5px;
+}
+
+.fila::after {
+   content: "";
+   clear: both;
+   display: table;
+}
+
+.fila .colmna img {
+   width: 100%;
+}
+
+.fila .colmna iframe {
+   width: 100%;
+}
  
+/*id clases */ 
+#clases{
+   padding-top: 100px;
+} 

@@ -3,7 +3,7 @@
     "name": "Esperanza Pividori",
     "description": "Directora de Arte · Diseñadora UX · Fotógrafa",
     "image": "profilepic.jpg",
-    "bio": "Soy diseñadora y me dedico a la dirección de arte y la fotografía hace 7 años. Diseño sets para audiovisuales y fotografías para marcas. Me especialicé en diseño de experiencia de usuario y te ayudo a impulsar visualmente tu proyecto. Gracias por tu interés en mi trabajo.",
+    "bio": "Soy diseñadora, me dedico a la dirección de arte y la fotografía hace 7 años. Diseño sets para audiovisuales y fotografías para marcas. Me especialicé en diseño de experiencia de usuario y te ayudo a impulsar visualmente tu proyecto. Gracias por tu interés en mi trabajo.",
     "contactmessage": "Escribirme para nuevos proyectos 🌱",
     "email": "esperanza.pividori@gmail.com",
     "phone": "+54 362 485-0902",
@@ -45,40 +45,34 @@
   "shop": {
     "projects": [
       {
+        "title": "2 reels de regalo",
+        "category": "Con la compra de tu pack de fotoproductos para marcas, ingresando el código 2reels",
+        "image": "card4.jpg"
+      },
+      {
+        "title": "Clases anticipadas",
+        "category": "Accedé al contenido de mis clases antes de que sean publicadas en mi canal de YouTube.",
+        "image": "card5.jpg"
+      },
+      {
         "title": "15% de descuento",
         "category": "tu primera sesión de fotos en estudios o exteriores, utilizando el código 15sesión",
-        "image": "card.jpg",
-        "url": "https://mpago.la/2mPD45H"
+        "image": "card.jpg"
       }, 
       {
         "title": "20% de descuento",
-        "category": "",
-        "image": "card1.jpg",
-        "url": "https://mpago.la/2mPD45H"
+        "category": "En fotoproductos para tu marca o emprendimiento ingresando el código 20FP",
+        "image": "card1.jpg"
       },
       {
         "title": "10% de descuente",
-        "category": "",
-        "image": "card2.jpg",
-        "url": "https://mpago.la/2mPD45H"
+        "category": "En una asesoría para desarrollar la identidad de tu marca ingresando el código 10asesoría",
+        "image": "card2.jpg"
       },
       {
-        "title": " asd",
-        "category": "",
-        "image": "card3.jpg",
-        "url": "https://mpago.la/2mPD45H"
-      },
-      {
-        "title": "fgh",
-        "category": "",
-        "image": "card4.jpg",
-        "url": "https://mpago.la/2mPD45H"
-      },
-      {
-        "title": "qwe",
-        "category": "",
-        "image": "card5.jpg",
-        "url": "https://mpago.la/2mPD45H"
+        "title": "Newsletter todas las semanas",
+        "category": "Un diálogo para conocer las nuevas tendencias en diseño v arte donde vas a encontrar contenido inspirador.",
+        "image": "card3.jpg"
       }
     ]
   },
@@ -124,17 +118,17 @@
   },
   "servicios": {
     "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
-    "education": [
+    "tipos": [
       {
-        "school": "Diseño de set + Fotografía",
-        "degree": "Recomendado para marcas que ofrecen accesorios u objetos"
+        "titulo": "Diseño de set + Fotografía",
+        "descrip": "Recomendado para marcas que ofrecen accesorios u objetos"
       },
       {
-        "school": "Estilismo + Fotografía",
-        "degree": "Recomendado para marcas de moda y proyectos creativos"      },
+        "titulo": "Estilismo + Fotografía",
+        "descrip": "Recomendado para marcas de moda y proyectos creativos"      },
       {
-        "school": "Creación de conceptos visual de marca + fotografía",
-        "degree": "Recomendado para marcas de moda, emprendedores que ofrecen servicios y para proyectos creativos"      }
+        "titulo": "Creación de conceptos visual de marca + fotografía",
+        "descrip": "Recomendado para marcas de moda, emprendedores que ofrecen servicios y para proyectos creativos"      }
     ]
   }
 }

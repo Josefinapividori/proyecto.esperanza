@@ -12,7 +12,7 @@ class About extends Component {
          var state = this.props.data.address.state;
          var phone = this.props.data.phone;
          var email = this.props.data.email;
-         var linkTree = this.props.data.linkTree;
+         // var linkTree = this.props.data.linkTree;
       }
 
       return (
@@ -37,11 +37,11 @@ class About extends Component {
                            <span>{email}</span>
                         </p>
                      </div>
-                     <div className="columns download">
+                     {/* <div className="columns download">
                         <p>
                            <a href={linkTree} className="button"><i className="fa fa-download"></i>Link Tree</a>
                         </p>
-                     </div>
+                     </div> */}
                   </div>
                </div>
             </div>

@@ -155,7 +155,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
    color: #313131;
-	font-family: 'opensans-bold', sans-serif;
+	font-family: 'opensans-semibold', sans-serif;
    font-weight: normal;
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
@@ -284,12 +284,12 @@ hr { border: solid #E3E3E3; border-width: 1px 0 0; clear: both; margin: 11px 0 3
 a, a:visited {
    text-decoration: none;
    outline: 0;
-   color: #11ABB0;
+   color: #A569BD;
 
    -webkit-transition: color .3s ease-in-out;
    -moz-transition: color .3s ease-in-out;
    -o-transition: color .3s ease-in-out;
-   transition: color .3s ease-in-out;
+   transition: color .3s ease-in-out !important;
 }
 a:hover, a:focus { color: #313131; }
 p a, p a:visited { line-height: inherit; }
@@ -432,7 +432,7 @@ dd { margin: 0 0 0 20px; }
 }
 .pagination .current,
 .pagination .current:hover {
-   background-color: #11ABB0;
+   background-color: #A569BD;
    color: #fff;
 }
 .pagination .inactive,
@@ -593,6 +593,7 @@ input[type="checkbox"] { display: inline; }
    max-width: 1020px;
    margin: 0 auto;
 }
+
 /* fixed width for IE8 */
 .ie .row { width: 1000px ; }
 
@@ -683,7 +684,7 @@ input[type="checkbox"] { display: inline; }
 /* block grids
 --------------------------------------------------------------------- */
 .bgrid-sixths [class*="column"]   { width: 16.66667%; }
-.bgrid-quarters [class*="column"] { width: 25%; }
+.bgrid-quarters [class*="column"] { width: 50%; }
 .bgrid-thirds [class*="column"]   { width: 33.33333%; }
 .bgrid-halves [class*="column"]   { width: 50%; }
 

@@ -16,7 +16,7 @@ const Shop = (props) => {
                 <p>{projects.category}</p>
               </div>
             </div>
-            <div className="link-icon"><i className="fa fa-link"></i></div>
+            {/* <div className="link-icon"><i className="fa fa-link"></i></div> */}
           </a>
         </div>
       </div>
@@ -51,11 +51,24 @@ const Shop = (props) => {
     <section id="shop">
 
       <div className="row">
+      <nav id="nav-wrap">
+
+<a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+<a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
+
+<ul id="nav" className="nav">
+    <li className="current"><a href="/#home">Home</a></li>
+    <li><a href="/#sobre-mi">Sobre mi</a></li>
+    <li><a href="/#portfolio">Portfolio</a></li>
+    <li><a href="/#servicios">Servicios</a></li>
+    <li><a href="/#contacto">Contacto</a></li>
+</ul>
+
+</nav>
 
         <div className="twelve columns collapsed">
 
-          <h1>BENEFICIOS EXCLUSIVOS</h1>
-
+          <h1>Gracias por ser parte de esta comunidad</h1>
           <div id="shop-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
             {projects}
           </div>

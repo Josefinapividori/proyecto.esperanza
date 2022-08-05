@@ -59,6 +59,7 @@ const Login = () => {
                     <li><a href="/#sobre-mi">Sobre mi</a></li>
                     <li><a href="/#portfolio">Portfolio</a></li>
                     <li><a href="/#servicios">Servicios</a></li>
+                    <li><a href="/#clases">Clases</a></li>
                     <li><a href="/#contacto">Contacto</a></li>
                     <li><a href="/register">Registrate</a></li>
                 </ul>
